@@ -187,7 +187,6 @@ header{
 	padding: 5px;
 	font-size: 18px;
 	cursor: pointer;
-	bottom: 5px;
 }
 .Dbtn1 a{
 
@@ -221,7 +220,95 @@ header{
 	cursor: pointer;
 }
 
+/*
+.slider-frame{
+	overflow: hidden;
+	height: 800px;
+	width: 800px;
+	margin-left: 250px;
+	margin-top: 60px;
+}
 
 
+@-webkit-keyframes slide_animation{
+	0%{left:0px;}
+	10%{left:0px;}
+	20%{left:800px;}
+	30%{left:800px;}
+	40%{left:800px;}
+	50%{left:800px;}
+	60%{left:800px;}
+	70%{left:800px;}
+	80%{left:0px;}
+	90%{left:0px;}
+	100%{left:0px;}
+}
 
+.slide-images{
+	width: 800px;
+	height: 800px;
+	margin: 0 0 0 -800px;
+	position: relative;
+	-webkit-animation-name: slide_animation;
+	-webkit-animation-duration:33s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
 
+.img-container{
+	height: 800px;
+	width: 800px;
+	position: relative;
+	float: left;
+}
+*/
+
+.outerbox{
+	margin-left: 40%;
+	width: 600px;
+	overflow: hidden;
+
+}
+.slidebox{
+	margin-top: 80px;
+	position: relative;
+	width: 2400px;
+	animation-name: Jamal;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+.siderbox img{
+	float: left;
+}
+@keyframes Jamal{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+
+	25%{
+		left: -600px;
+	}
+	45%{
+		left: -600px;
+	}
+	50%{
+		left: -1200px;
+	}
+	70%{
+		left: -1200px;
+	}
+	75%{
+		left: -1800px;
+	}
+	95%{
+		left: -1800px;
+	}
+	100%{
+		left: -2400px;
+	}
+}
