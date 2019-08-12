@@ -1,54 +1,60 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: Century Gothic;
 }
 
 header{
-	background: linear-gradient(57deg,#00c6a7,#1e4d92);
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-
-}
-.logo h1{
-	line-height: 50px;
-	padding-left: 25px;
-	padding-top: 25px;
-	font-family: "Times New Roman" ,serif ;
-}
+	}
 
 .navbar{
-	background-color: #fff;
+	background-color: #f0f8ff;
+	overflow: hidden;
 }
 
-.dropdown1{
+
+.logo{
+	margin-left:2px;
+	padding: 4px 6px;
+}
+
+.navbar a{
+	margin-right: 20px;
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 6px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.dropdown{
 	float: right;
 	overflow: hidden;
 }
 
-.dropdown1 .dropbtn1{
-	margin-right: 50px;
+.dropdown .dropbtn{
+	margin-right: 10px;
 	font-size: 16px;
 	border: none;
 	outline: none;
-	color: white;
-	padding: 14px 16px;
+	color: black;
+	padding: 14px 5px;
 	background-color: inherit;
 
 }
-.navbar a:hover, .dropdown1:hover .dropbtn1{
+.navbar a:hover, .dropdown:hover .dropbtn{
 	background-color: transparent;
+
 }
 
-.dropdown-content1{
+.dropdown-content{
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: transparent;
 	min-width: 100px;
+	float: left;
 }
 
-.dropdown-content1 a {
+.dropdown-content a {
   float: none;
   color: black;
   padding: 12px 16px;
@@ -57,231 +63,89 @@ header{
   text-align: left;
 }
 
-.dropdown-content1 a:hover {
-  background-color: grey;
-}
+/*.dropdown-content text{
 
-.dropdown1:hover .dropdown-content1 {
-  display: block;
-}
-
-.dropdown2{
-	float: right;
-	overflow: hidden;
-}
-
-.dropdown2 .dropbtn2{
-	margin-right: 25px;
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 14px 16px;
-	background-color: inherit;
-
-}
-.navbar a:hover, .dropdown2:hover .dropbtn2{
-	background-color: transparent;
-
-}
-
-.dropdown-content2{
-	display: none;
-	position: absolute;
-	background-color: white;
-	min-width: 100px;
-}
-
-.dropdown-content2 a {
   float: none;
   color: black;
+  margin-top: 20px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
-}
-
-.dropdown-content2 a:hover {
-  background-color: #ddd;
-}
-
-.dropdown2:hover .dropdown-content2 {
-  display: block;
-}
-
-.box .stext h1{
-
-	float: left;
-	font-size: 40px;
-	border-bottom: 3px solid;
-	margin-bottom: 10px;
-	font-family: "Times New Roman" ,serif ;
-
-}
-
-.box{
-	width: 380px;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%,50%);
-	color: white;
-}
-
-
-.btn{
-	margin-left: 20%;
-	width: 50%;
-	background: none;
-	border: 2px solid #fff;
-	color: white;
-	padding: 5px;
-	font-size: 18px;
-	cursor: pointer;
-
-}
-.btn a{
-	text-decoration: none;
-	background: none;
-	color: white;
-	margin-left: 30%;
-	font-size: 18px;
-	padding: 5px;
-	cursor: pointer;
-}
-.box .ltext h1{
-
-	float: left;
-	font-size: 40px;
-	border-bottom: 3px solid;
-	margin-bottom: 10px;
-	font-family: "Times New Roman" ,serif ;
-
-}
-
-.dbox{
-	top: -25%;
-	width: 480px;
-	position: absolute;
-	left: 50%;
-	transform: translate(-50%,50%);
-	color: white;
-}
-
-.dbox .dtext h1{
-
-	float: left;
-	font-size: 40px;
-	border-bottom: 3px  solid;
-	margin-bottom: 10px;
-	font-family: "Times New Roman" ,serif ;
-
-}
-
-.Dbtn1{
-
-	margin-left: 1%;
-	width: 35%;
-	background: none;
-	border: 2px solid #fff;
-	color: white;
-	padding: 5px;
-	font-size: 18px;
-	cursor: pointer;
-}
-.Dbtn1 a{
-
-	text-decoration: none;
-	background: none;
-	color: white;
-	margin-left: 7%;
-	font-size: 18px;
-	padding: 5px;
-	cursor: pointer;
-}
-
-
-.Dbtn2{
-	margin-left: 1%;
-	width: 35%;
-	background: none;
-	border: 2px solid white;
-	padding: 5px;
-	font-size: 18px;
-	cursor: pointer;
-}
-
-.Dbtn2 a{
-	text-decoration: none;
-	color: white;
-	background: none;
-	margin-left: 3%;
-	font-size: 18px;
-	padding: 5px;
-	cursor: pointer;
-}
-
-/*
-.slider-frame{
-	overflow: hidden;
-	height: 800px;
-	width: 800px;
-	margin-left: 250px;
-	margin-top: 60px;
-}
-
-
-@-webkit-keyframes slide_animation{
-	0%{left:0px;}
-	10%{left:0px;}
-	20%{left:800px;}
-	30%{left:800px;}
-	40%{left:800px;}
-	50%{left:800px;}
-	60%{left:800px;}
-	70%{left:800px;}
-	80%{left:0px;}
-	90%{left:0px;}
-	100%{left:0px;}
-}
-
-.slide-images{
-	width: 800px;
-	height: 800px;
-	margin: 0 0 0 -800px;
-	position: relative;
-	-webkit-animation-name: slide_animation;
-	-webkit-animation-duration:33s;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-play-state: running;
-}
-
-.img-container{
-	height: 800px;
-	width: 800px;
-	position: relative;
-	float: left;
 }
 */
+input[type=text] {
+	width: 80%;
+	border: 2px solid #aaa;
+	border-radius: 4px;
+	margin: 2px 0;
+	outline: none;
+	padding: 2px;
+	box-sizing: border-box;
+	border-color: dodgerblue;
+	box-shadow: 0 0 8px 0 dodgerblue;
+}
 
-.outerbox{
-	margin-left: 40%;
-	width: 600px;
-	overflow: hidden;
+
+.dropdown-content button{
+
+	size: 4px;
+	font-size: 1px;
+	text-align: center;
+	font-family: Times New Roman;
+	border-radius: 6px;
+}
+
+.dropdown-content a:hover {
+  background-color: #blue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.main{
+	background-color: #f0f8ff;
+}
+.main img{
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 
 }
-.slidebox{
-	margin-top: 80px;
+
+.main1{
+	background-color: #f0f8ff;
+}
+.outerbox{
+	width: 600px;
+	overflow: hidden;
+	background-color: #f0f8ff;
+	margin-left: auto;
+	margin-right: auto;
+	border: 6px solid black;
+}
+
+.slider {
 	position: relative;
 	width: 2400px;
 	animation-name: Jamal;
 	animation-duration: 20s;
 	animation-iteration-count: infinite;
 }
-
-.siderbox img{
+.slider img{
 	float: left;
+	/*
+	height: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%; */
+	
 }
+
 @keyframes Jamal{
 	0%{
 		left: 0px;
@@ -312,3 +176,4 @@ header{
 		left: -2400px;
 	}
 }
+
