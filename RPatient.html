@@ -21,6 +21,7 @@
 		<h1 >Let's create your account</h1>
 		<h1 >Already have an account?<a href="index.html">Login</a>
 		</h1>
+		<br>
 
 		<form class="form">
 			
@@ -33,19 +34,19 @@
 			<br>
 
 			<label class="lab">E-Mail</label><br>
-			<input type="E-Mail" placeholder="abc@xyz.com" name="email" required="required" title="Please enter a valid email address">
+			<input type="email" placeholder="abc@xyz.com" name="email" required="required" title="Please enter a valid email address">
 			<br>
 
 			<label class="lab">Phone Number</label><br>
-			<input type="Phone" placeholder="### ### ####" name="" required="required" title="Please enter a 10 digit phone number">
+			<input type="phone" placeholder="### ### ####" name="" required="required" title="Please enter a 10 digit phone number">
 			<br>
 
 			<label class="lab">Password</label><br>
-			<input type="Password" placeholder="Password" name="password" required="required" title="Password should greater than 6 characters">
+			<input type="password" placeholder="Password" name="password" required="required" title="Password should greater than 6 characters">
 			<br>
 
 			<label class="lab">Confirm Password</label><br>
-			<input type="Password" placeholder="Confirm Password" name="Password" required="required" title="Password should greater than 6 characters"> 
+			<input type="password" placeholder="Confirm Password" name="Password" required="required" title="Password should greater than 6 characters"> 
 			<br>
 
 			<label class="lab">Address</label>
@@ -131,7 +132,7 @@
 			<br>
 
 			<label class="lab">Weight</label>
-			<input type="number" name="Weight" required="required" title="__kg __gms" placeholder="Enter weight in kg">
+			<input type="number" name="weight" required="required" title="Please enter your height" placeholder="__kg __gms">
 			<br>
 
 			<label class="lab">Height</label>
@@ -141,32 +142,37 @@
 			<select class="list">
 				<option>Select your blood group</option>
 
-				<option value="O+">O+</option>
-				<option value="O-">O-</option>
-				<option value="A+">A+</option>
-				<option value="A-">A-</option>
-				<option value="B+">B+</option>
-				<option value="B-">B-</option>
-				<option value="AB+">AB+</option>
-				<option value="AB-">AB-</option>
+				<option class="opt" value="O+">O+</option>
+				<option class="opt" value="O-">O-</option>
+				<option class="opt" value="A+">A+</option>
+				<option class="opt" value="A-">A-</option>
+				<option class="opt" value="B+">B+</option>
+				<option class="opt" value="B-">B-</option>
+				<option class="opt" value="AB+">AB+</option>
+				<option class="opt" value="AB-">AB-</option>
 
 			</select>
 			<br>
 
 			<label class="lab">Any previous injuries</label>
-			<textarea class="text">If any please mention</textarea>
+			<textarea class="text" placeholder="If any please mention"></textarea>
 			<br>
 
 
 			<label class="lab">Any allergies</label>
-			<textarea class="text">If any please mention</textarea>
+			<textarea class="text" placeholder="If any please mention"></textarea>
 			<br>
 
 			<input type="checkbox" name="Agree" required="required">
-			<a href="#">Terms and Condition</a>
+
+			<a href="#">I agree the Terms and Conditions</a>
 			<br><br>
 
-			<button type="button">Submit</button>
+			<button type="button">
+				<a href="index.html">Submit..</a>
+			</button>
+			<br>
+			<br>
 			<br>
 
 			</form>
