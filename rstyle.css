@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	}
+
+.navbar{
+	background-color: #f0f8ff;
+	overflow: hidden;
+}
+
+
+.logo h2{
+	background-color: #f0f8ff;
+	overflow: hidden;
+	margin-left:2px;
+	padding: 4px 6px;
+}
+
+.navbar a{
+	margin-right: 20px;
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 6px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.box{
+
+	background-color: #f0f8ff;
+}
+.form{
+	margin-left: 30%;
+	background-color: #f0f8ff;
+
+}
+
+h1{
+	font-family: Times New Roman;
+	font-size: 30px;
+	margin-left:10px;
+	margin-top: 20px;
+
+}
+
+h1 a{
+
+	text-decoration: none;
+	color: blue;
+	font-family: Times New Roman;
+	font-size: 30px;
+	margin-left:10px;
+	margin-top: 20px;
+}
+
+.lab
+{
+	font-family: Times New Roman;
+	font-size: 30px;
+	margin-left:10px;
+	margin-top: 20px;
+
+}
+
+
+.list,input{
+
+	border: 3px solid black;
+	border-radius: 20px;
+	display: block;
+	text-align: center;
+	height: 30px;
+	box-sizing: 20%;
+	width: 20%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+textarea{
+	border: 3px solid black;
+	border-radius: 20px;
+	display: block;
+	text-align: center;
+	height: 60px;
+	box-sizing: 20%;
+	width: 20%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
