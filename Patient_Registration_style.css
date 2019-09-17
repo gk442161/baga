@@ -12,7 +12,7 @@ body{
 
 
 .navbar{
-	background-color: #f0f8ff;
+	background-color: lightblue;
 	overflow: hidden;
 }
 
@@ -87,7 +87,7 @@ h1 a{
 	border-right: transparent;
 	border-radius: 1px;
 	display: inline;
-	text-align: center;
+	text-align: left;
 	background: transparent;
 	height: 30px;
 	box-sizing: 20%;
@@ -107,7 +107,7 @@ h1 a{
 	border-right: transparent;
 	border-radius: 1px;
 	display: inline;
-	text-align: center;
+	text-align: left;
 	background: transparent;
 	height: 30px;
 	box-sizing: 20%;
@@ -231,30 +231,3 @@ button:hover{
 }
 
 
-.align{
-	width: 100%;
-	border:3px solid blue;
-}
-.align .lab1{
-	
-	font-family: Times New Roman;
-	font-size: 40px;
-	margin-left:5%;	
-	margin-top: 20px;
-
-}
-
-.align .input1{
-
-
-	border: 3px solid black;
-	border-radius: 20px;
-	display: block;
-	text-align: center;
-	height: 30px;
-	box-sizing: 20%;
-	width: 50%;
-	margin-left: 3%;
-	margin-top: 10px;
-
-}
