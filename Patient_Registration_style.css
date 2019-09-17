@@ -35,17 +35,17 @@ body{
 }
 .box{
 
-	background-color: transparent;
+	background-color: lightblue;
 }
 .form{
 
 
-	border: 3px solid black;
+	
 	border-radius: 1px;
 	display: block;
 	margin-left: 20%;
 	width: 60%;
-	background-color: lightblue;
+	
 
 }
 
@@ -94,7 +94,7 @@ h1 a{
 	width: 50%;
 	margin-top: 10px;
 	margin-right: 10px;
-	color: blue;
+	color: grey;
 
 	
 }
