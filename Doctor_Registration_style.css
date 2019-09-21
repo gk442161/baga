@@ -11,7 +11,6 @@ body{
 }
 
 
-
   body {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -187,48 +186,174 @@ body{
       }
 
 
+.logo h2{
+	background-color: #f0f8ff;
+	overflow: hidden;
+	margin-left:2px;
+	padding: 4px 6px;
+}
 
+.box{
+	border-color: black;
+	border: solid black;
 
+}
 
+.form{
+	border-radius: 1px;
+	display: block;
+	margin-left: 20%;
+	width: 60%;
+}
 
-
-
-
-
-
-
-
-.label{
-	margin-top: 20px;
+.heading{
 	font-family: Times New Roman;
-	font-size: 30px;
-
-	margin-left: 30%;
-}
-
-h3{
-	margin-left: 30%;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-left: 36%;
+	text-decoration: underline;
 }
 
 
+.lab,.upload
+{
+	font-family: Times New Roman;
+	font-size: 30px;	
+	margin-top: 20px;
 
-.submit{
+}
+
+input[type="file"]{
+	cursor: inherit;
+    display: block;
+    font-size: 20px;
+    background-color: transparent;
+    text-align: center;
+  
+}
+
+input[type="checkbox"]{
+	margin-left: 30%;
+}
+span a {
+	text-decoration: none;
+	color: blue;
+	font-family: Times New Roman;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.list ,.special_list,input[type="text"],input[type="email"],input[type="phone"],input[type="password"],input[type="number"],input[type="date"],input[type="tel"]{
+
+	border-bottom-color: black;
+	border-top: transparent;
+	border-left: transparent;
+	border-right: transparent;
+	border-radius: 1px;
+	display: inline;
+	text-align: left;
+	background: transparent;
+	height: 30px;
+	box-sizing: 20%;
+	width: 50%;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: black;
+	font-size: 20px;	
+}
+
+
+.date_list{
+	border: solid black;
+	border-radius: 1px;
+	display: inline;
+	text-align: left;
+	background: transparent;
+	height: 30px;
+	box-sizing: 20%;
+	width: 10%;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: black;
+	font-size: 20px;
+
+}
+
+textarea{
+	overflow: hidden;
+	border-bottom: solid black;
+	border-top: solid black;
+	border-left: solid black;
+	border-right: solid black;
+	border-radius: 1px;
+	display: inline;
+	text-align: center;
+	background: transparent;
+	height: 30px;
+	box-sizing: 20%;
+	width: 50%;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+
+}
+textarea:hover{
+	overflow: hidden;
+	border-bottom-color: black;
+	border-top-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-radius: 21px;
+	display: inline;
+	text-align: center;
+	background: transparent;
+	height: 2%;
+	box-sizing: 20%;
+	width: 50%;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+::placeholder{
+
+	color:black;
+	font-size: 20px;	
+
+}
+.list option:hover{
+	border: 3px ;
+	border-color: blue;
+	border-radius: 20px;
+	display: block;
+	text-align: center;
+	height: 30px;
+	box-sizing: 20%;
+	width: 20%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.submit,input[type="submit"] {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px; 
 	border-color: black;
 	margin-left: 45%;
 	size: 90px;
 	font-size: 20px;
 	font-family: Times New Roman;
 	border-radius: 6px;
-}
 
+}
 
 .submit a{
 	text-decoration: none;
 	color: black;
 }
-.submit:hover{
+.submit:hover ,input[type="submit"]:hover{
     border-color: #5baaaf;
     background-color: rgb(7, 105, 138);
     color: white;
 }
+
 
