@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login_page</title>
+	<link rel="stylesheet" type="text/css" href="css/support.css">
+</head>
+<body >
+
+		<header>
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+     
+    </header>
+
+
+
+
+
+	<div class="logo">
+		<h1>Medic Hub </h1>
+	</div>
+
+<div >
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>abc</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>abc</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>abc</p>
+</div>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
