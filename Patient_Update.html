@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Patient_Update_details</title>
+	<link rel="stylesheet" type="text/css" href="css/Patient_Update_style.css">
+
+
+<script language="JavaScript">
+<!--
+function calculateBmi() {
+var weight = document.form.weight.value
+var height = document.form.height.value
+if(weight > 0 && height > 0){	
+var finalBmi = weight/(height/100*height/100)
+document.form.bmi.value = finalBmi
+if(finalBmi < 18.5){
+document.form.meaning.value = " underweight."
+}
+if(finalBmi > 18.5 && finalBmi < 25){
+document.form.meaning.value = " healthy."
+}
+if(finalBmi > 25){
+document.form.meaning.value = " overweight."
+}
+}
+else{
+alert("Please enter your height and weight")
+}
+}
+//-->
+</script>
+								
+</head>
+<body>
+
+
+	<header>
+        <script>
+
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
+
+      </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+            <div class="navbar">
+                    <!--
+                    <div class="logo">
+                    <img src="image/logo.jpg" height="120px" width="120px">
+                </div>-->
+                <nav class="fill">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-home"></i>&nbsp;HOME</a></li>
+                        <li><a href="#"><i class="fa fa-thumbs-o-up"></i>&nbsp;ABOUT</a></li>
+                  
+                      <li>                
+                      	<div class="dropdown">
+                          <button onclick="myFunction()" class="dropbtn"><i class="fa fa-support"></i>Support</button>
+                          <div id="myDropdown" class="dropdown-content">
+                            <a href="#" ><i class="fa fa-phone-square"></i>&nbsp;7977571987</a>
+                            <a href="#"><i class="fa fa-instagram"></i>&nbsp;amay_naik</a>
+                            <a href="#"><i class="fa fa-twitter"></i>&nbsp;Amaynaik</a>
+                          </div>
+                         
+                        </div></li>
+                        <li><a href="#"><i class="fa fa-sign-out"></i>&nbsp;SIGN-OUT</a></li>
+                     
+                    </ul>
+                  </nav>
+                </section>
+               
+            </div><br>
+
+    </header>
+
+
+		
+		
+
+			<form  name="form" type="get" action="#" class="form">
+
+
+			<div class="box">
+			<label class="heading">Update your details</label>
+			<br><br>
+
+
+					<div>
+					<label class="lab" style="margin-left:3%">Patient ID:</label>
+				<span>
+					<input type="text" name="p_id" placeholder="10 digit ID number"  required="required" title="Please enter your ID" style="margin-left: 15%;">
+				</span>
+				</div><br>
+
+
+					<div>
+					<label class="lab" style="margin-left:3%">Doctor ID:</label>
+				<span>
+					<input type="text" name="d_id" placeholder="10 digit ID number"  required="required" title="Please enter doctors ID" style="margin-left: 15%;">
+				</span>
+				</div><br>
+
+				
+
+
+
+
+
+									<div>
+					<label class="lab" style="margin-left:3%">Health issue:</label>
+				<span>
+					<input type="text" name="health_issue" placeholder="Example:- Diabetes / Fever etc"  required="required" style="margin-left: 12%;">
+				</span>
+				</div><br>
+
+
+	<div>
+				<label class="lab" style="margin-left: 3%">Symptoms</label>
+				<textarea class="text" rows="2" cols="40" required="required" name="address" placeholder="Example:- High Fever"   style="margin-left:17%;"></textarea>	
+			</div>
+<br><br>
+				
+
+		<div>			
+
+				<label class="lab" style="margin-left: 3%">Weight in Kg</label>
+				<input type="text" name="weight" required="required" placeholder="Update your weight" title="Please enter your height"  style="margin-left: 13%;">
+
+				<!--<span>kg</span>-->
+	</div><br>
+
+			<div>
+				<label class="lab" style="margin-left: 3%">Height in cms</label>
+				<input type="text" name="height"  required="required" placeholder="Update your height" title="Please enter your height" style="margin-left: 12%;">
+				<br>
+				<br>
+						<button class="calculateBmi" type="button" onclick="calculateBmi()" style="margin-left: 42%;">Calculate BMI</button><br>
+							
+							<label class="lab" style="margin-left: 3%" >Your Bmi:</label>
+								<input type="text" name="bmi" size="10" style="margin-left: 16%;"><br /><br>
+
+							<label class="lab" style="margin-left: 3%">This means:</label>	
+								<input type="text" name="meaning" size="25" style="margin-left: 14%;"><br /><br>
+
+
+			</div>		
+
+
+		<div>
+			<input class="submit" type=submit value="Next">	
+			
+			<br>
+			<br>
+		</div>
+		</form>
+
+
+
+
+</body>
+
+</html>
